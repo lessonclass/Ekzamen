@@ -1,0 +1,57 @@
+@import './fonts.css';
+
+:root {
+    --color-dark: #666666;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.col-6 {
+    width: 50%;
+}
+.container{
+    display: flex;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 60px;
+    color: var(--color-dark);
+}
+.header .container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo {
+    font-size: 26px;
+    text-transform: uppercase;
+}
+.header__link {
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 15px;
+}
+.mountain {
+    padding: 56px 0;
+}
+.card {
+    display: flex;
+}
+.mountain__card{
+
+}
+.mountain__desc{
+    grid-template-columns: 1fr;
+
+}
